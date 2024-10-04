@@ -25,7 +25,7 @@ internal class Program
         else
         {
             Console.WriteLine("Lütfen sadece Evet ya da Hayır yazınız!");
-            
+
         }
 
         Console.WriteLine("Sorular başlıyor!");
@@ -77,7 +77,7 @@ internal class Program
             Console.WriteLine("Yarışma sona erdi. Umarım keyifli vakit geçirmişsinizdir. İyi Günler!");
         }
 
-        else if (cevap1 == "a" || cevap1 == "b" || cevap1 == "c")
+        else if (cevap3 == "a" || cevap3 == "b" || cevap3 == "c")
 
         {
             Console.WriteLine("Üzgünüm, yanlış cevap verdiniz. Kaybettiniz.");
@@ -86,7 +86,7 @@ internal class Program
         }
         else
         {
-            Console.WriteLine("Lütfen sadece A, B, C ya da d yazınız!");
+            Console.WriteLine("Lütfen sadece A, B, C ya da D yazınız!");
             return;
         }
     }
