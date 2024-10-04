@@ -16,7 +16,7 @@ internal class Program
             Console.WriteLine("O zaman başlayalım!");
 
         }
-        else if (hazir == "hayır")
+        else if (hazir == "hayır" || hazir == "hayir")
         {
             Console.WriteLine("Yarışmaya hazır değilseniz BAŞLAMAYIZ!. İyi Günler!");
             return;
