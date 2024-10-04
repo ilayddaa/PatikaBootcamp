@@ -1,31 +1,25 @@
 # Proje Hakkında
 
-Bu proje, haftalık ödevlerin bir parçası olarak geliştirilmiştir. Proje kapsamında belirli görevler ve alıştırmalar yer almaktadır. Her hafta yeni konular işlenerek, öğrencilerin pratik yapması ve öğrendiklerini pekiştirmesi amaçlanmaktadır.
+Bu proje, haftalık ödevlerin bir parçası olarak geliştirilmiştir. Proje kapsamında belirli görevler ve alıştırmalar yer almaktadır. Her hafta yeni konular işlenmekte ve bu konularla ilgili pratikler yapılmaktadır.
 
 ## İçindekiler
 
-- Giriş
-- Kurulum
-- Kullanım
-- Katkıda Bulunanlar
-- Lisans
-
-## Giriş
-
-Bu bölümde projenin amacı ve genel yapısı hakkında bilgi verilecektir.
+- Hafta 1: Giriş ve Temel Kavramlar
+- Hafta 2: İleri Seviye Konular
+- Hafta 3: Proje Uygulamaları
 
 ## Kurulum
 
-Projenin nasıl kurulacağı ve çalıştırılacağı hakkında adım adım talimatlar.
+Projeyi çalıştırmak için aşağıdaki adımları izleyin:
 
-## Kullanım
+1. Depoyu klonlayın: `git clone <repo-url>`
+2. Gerekli bağımlılıkları yükleyin: `npm install`
+3. Projeyi başlatın: `npm start`
 
-Projenin nasıl kullanılacağına dair örnekler ve açıklamalar.
+## Katkıda Bulunma
 
-## Katkıda Bulunanlar
-
-Projeye katkıda bulunan kişilerin listesi.
+Katkıda bulunmak isterseniz, lütfen bir pull request gönderin veya bir issue açın.
 
 ## Lisans
 
-Projenin lisans bilgileri.
+Bu proje MIT lisansı ile lisanslanmıştır.
