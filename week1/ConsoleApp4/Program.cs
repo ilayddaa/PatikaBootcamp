@@ -28,17 +28,14 @@ switch (meyve)
     case "portakal":
         fiyat = 300;
         break;
-    case "diğer":
+
+    default:
         fiyat = 2;
         break;
-    default:
-        Console.WriteLine("Geçersiz seçim!");
-        break;
 
 
 }
 
-{
-    Console.WriteLine("Seçtiğiniz meyvenin fiyatı " + fiyat + " TL'dir.");
-}
+Console.WriteLine("Seçtiğiniz meyvenin fiyatı " + fiyat + " TL'dir.");
+
 Console.ReadKey(); //bilgilendirme içermeyen yazı kapanır.
