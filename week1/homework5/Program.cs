@@ -19,13 +19,13 @@ internal class Program
         else if (hazir == "hayır")
         {
             Console.WriteLine("Yarışmaya hazır değilseniz BAŞLAMAYIZ!. İyi Günler!");
-
+            return;
         }
 
         else
         {
             Console.WriteLine("Lütfen sadece Evet ya da Hayır yazınız!");
-            return;
+            
         }
 
         Console.WriteLine("Sorular başlıyor!");
