@@ -58,7 +58,7 @@ internal class Program
 
         {
             Console.WriteLine("Üzgünüm, yanlış cevap verdiniz. Kaybettiniz.");
-            Console.WriteLine("Yarışma sona erdi. 1TL kazandınız. İyi Günlerde Harcayın!");
+            Console.WriteLine("Yarışma sona erdi. 50 kuruş kazandınız. İyi Günlerde Harcayın!");
             return;
         }
         else
