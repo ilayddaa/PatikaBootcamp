@@ -128,7 +128,7 @@ namespace kapanıs
 
             // --------------------------------------------------------------
 
-            Console.Write("Ay No: ");
+            Console.WriteLine("Ay No: ");
             Console.WriteLine("Lütfen 1-12 arasında bir sayı giriniz!");
             int ay = Convert.ToInt32(Console.ReadLine());
             int adet;
