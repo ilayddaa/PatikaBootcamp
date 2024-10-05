@@ -163,7 +163,7 @@ namespace kapanıs
                     return;
             }
 
-            Console.WriteLine("Girilen ay  " + adet + " gün vardır.");
+            Console.WriteLine("Girilen ayda " + adet + " gün vardır.");
             // Sekizinci programımız. Switch-case yapısı ile ay bilgisine göre gün sayısını ekrana yazdırıyoruz.
 
             // --------------------------------------------------------------
