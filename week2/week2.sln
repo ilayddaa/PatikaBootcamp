@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "homework3", "homework3\home
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tatil Uygulaması", "Tatil Uygulaması\Tatil Uygulaması.csproj", "{330C1890-16E5-42EB-8EB5-3D0230DAE13C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "homework5", "homework5\homework5.csproj", "{3F1CF57D-69FE-4FC0-A371-852273E36B81}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{330C1890-16E5-42EB-8EB5-3D0230DAE13C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{330C1890-16E5-42EB-8EB5-3D0230DAE13C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{330C1890-16E5-42EB-8EB5-3D0230DAE13C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3F1CF57D-69FE-4FC0-A371-852273E36B81}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3F1CF57D-69FE-4FC0-A371-852273E36B81}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3F1CF57D-69FE-4FC0-A371-852273E36B81}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3F1CF57D-69FE-4FC0-A371-852273E36B81}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
