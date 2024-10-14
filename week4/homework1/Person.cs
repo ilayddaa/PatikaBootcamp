@@ -2,25 +2,25 @@ using System;
 
 namespace homework1;
 
-public class Person
+public class Person // Person classı oluşturuldu.
 {
-    private string name;
+    private string name; // name, surname ve age değişkenleri oluşturuldu.
     private string surname;
     private int age;
 
 
     public string Name
     {
-        get { return name; }
+        get { return name; } // get ve set metodları oluşturuldu.
         set
         {
-            if (value.Length >= 2)
+            if (value.Length >= 2) // Eğer girilen değer 2 karakterden büyükse name değişkenine atama yapılır.
             {
                 name = value;
             }
         }
     }
-    public string Surname
+    public string Surname // Surname değişkeni için get ve set metodları oluşturuldu.
     {
         get { return surname; }
         set
@@ -31,14 +31,14 @@ public class Person
             }
         }
     }
-    public int Age
+    public int Age // Age değişkeni için get ve set metodları oluşturuldu.
     {
         get { return age; }
         set
         {
-            if (value >= 4 && value <= 100)
+            if (value >= 0 && value <= 100) // Eğer girilen değer 4 ile 100 arasında ise age değişkenine atama yapılır.
             {
-                age = value;
+                age = value; // Girilen değer age değişkenine atandı.
             }
         }
     }
