@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "homework4", "homework4\home
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "homework5", "homework5\homework5.csproj", "{00AB79D1-E746-4785-951B-A743EBD539F8}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Polymorphism-homework6", "Polymorphism-homework6\Polymorphism-homework6.csproj", "{B3519B34-7C7C-4AC2-A589-C7E2F2120E33}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -42,5 +44,9 @@ Global
 		{00AB79D1-E746-4785-951B-A743EBD539F8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{00AB79D1-E746-4785-951B-A743EBD539F8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{00AB79D1-E746-4785-951B-A743EBD539F8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B3519B34-7C7C-4AC2-A589-C7E2F2120E33}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B3519B34-7C7C-4AC2-A589-C7E2F2120E33}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B3519B34-7C7C-4AC2-A589-C7E2F2120E33}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B3519B34-7C7C-4AC2-A589-C7E2F2120E33}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
