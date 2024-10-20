@@ -1,5 +1,4 @@
-﻿using System.ComponentModel;
-using System.Runtime.CompilerServices;
+﻿
 
 public abstract class Calısan // calısan adında nesne üretilemez cünkü abstract
 {
@@ -13,11 +12,11 @@ public abstract class Calısan // calısan adında nesne üretilemez cünkü abs
         Surname = surname;
         Departman = departman;
     }
-    public abstract void BilgileriGoster(); 
+    public abstract void BilgileriGoster();
 }
 public class İnsanKaynakları : Calısan
 {
-    public İnsanKaynakları(string ad, string surname, string departman) : base(ad, surname, departman)
+    public İnsanKaynakları(string ad, string surname) : base(ad, surname, "İnsan Kaynakları") //base: üst sınıfın constructor'ını çalıştırır
     {
     }
     public override void BilgileriGoster() //override: üsttekini geçersiz kılıp altta kendine özgü bir şey yapmak
@@ -25,12 +24,12 @@ public class İnsanKaynakları : Calısan
         Console.WriteLine("İnsan Kaynaklarının adı: " + Ad);
         Console.WriteLine("İnsan Kaynaklarının Soyadı: " + Surname);
         Console.WriteLine("İnsan Kaynaklarının Departmanı: " + Departman);
-    }   
+    }
 
 }
 public class Mudur : Calısan
 {
-    public Mudur(string ad, string surname, string departman) : base(ad, surname, departman)
+    public Mudur(string ad, string surname) : base(ad, surname, "Müdür")
     {
     }
     public override void BilgileriGoster()
@@ -42,7 +41,7 @@ public class Mudur : Calısan
 }
 public class Yazılımcı : Calısan
 {
-    public Yazılımcı(string ad, string surname, string departman) : base(ad, surname, departman)
+    public Yazılımcı(string ad, string surname) : base(ad, surname, "Yazılımcı")
     {
     }
     public override void BilgileriGoster()
@@ -51,35 +50,35 @@ public class Yazılımcı : Calısan
         Console.WriteLine("Yazılımcının Soyadı: " + Surname);
         Console.WriteLine("Yazılımcının Departmanı: " + Departman);
     }
-    public class Hizmetçi: Calısan
-{
-    public Hizmetçi(string ad, string surname, string departman) : base(ad, surname, departman)
+    public class Hizmetçi : Calısan
     {
+        public Hizmetçi(string ad, string surname) : base(ad, surname, "Hizmetçi")
+        {
+        }
+        public override void BilgileriGoster()
+        {
+            Console.WriteLine("Hizmetçinin adı: " + Ad);
+            Console.WriteLine("Hizmetçinin Soyadı: " + Surname);
+            Console.WriteLine("Hizmetçinin Departmanı: " + Departman);
+        }
     }
-    public override void BilgileriGoster()
+    public class Program
     {
-        Console.WriteLine("Hizmetçinin adı: " + Ad);
-        Console.WriteLine("Hizmetçinin Soyadı: " + Surname);
-        Console.WriteLine("Hizmetçinin Departmanı: " + Departman);
+        public static void Main()
+        {
+            Console.Clear();
+            İnsanKaynakları insanKaynakları = new İnsanKaynakları("İlayda", "Taş");
+            insanKaynakları.BilgileriGoster();
+            Console.WriteLine("************");
+            Yazılımcı yazılımcı = new Yazılımcı("Lyd", "Taş");
+            yazılımcı.BilgileriGoster();
+            Console.WriteLine("************");
+            Hizmetçi hizmetçi = new Hizmetçi("Burak", "Özkan");
+            hizmetçi.BilgileriGoster();
+            Console.WriteLine("************");
+            Mudur mudur = new Mudur("İlyada", "Taş");
+            mudur.BilgileriGoster();
+
+        }
     }
-}
-public class Program
-{
-    public static void Main()
-    {
-        Console.Clear();
-        İnsanKaynakları insanKaynakları = new İnsanKaynakları("İlayda", "Taş", "İnsan Kaynakları");
-        insanKaynakları.BilgileriGoster();
-        Console.WriteLine("************");
-        Yazılımcı yazılımcı = new Yazılımcı("Lyd", "Taş", "Yazılımcı");
-        yazılımcı.BilgileriGoster();
-        Console.WriteLine("************");
-        Hizmetçi hizmetçi = new Hizmetçi("Burak", "Özkan", "Hizmetçi");
-        hizmetçi.BilgileriGoster();
-        Console.WriteLine("************");
-        Mudur mudur = new Mudur("İlyada", "Taş", "Müdür");
-        mudur.BilgileriGoster();
-        
-    }
-}
 }
