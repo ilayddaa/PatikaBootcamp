@@ -3,13 +3,13 @@
 public abstract class Calısan // calısan adında nesne üretilemez cünkü abstract
 {
     public string Ad { get; set; }
-    public string Surname { get; set; }
+    public string Soyadı { get; set; }
     public string Departman { get; set; }
 
     public Calısan(string ad, string surname, string departman)
     {
         Ad = ad;
-        Surname = surname;
+        Soyadı = surname;
         Departman = departman;
     }
     public abstract void BilgileriGoster();
@@ -22,7 +22,7 @@ public class İnsanKaynakları : Calısan
     public override void BilgileriGoster() //override: üsttekini geçersiz kılıp altta kendine özgü bir şey yapmak
     {
         Console.WriteLine("İnsan Kaynaklarının adı: " + Ad);
-        Console.WriteLine("İnsan Kaynaklarının Soyadı: " + Surname);
+        Console.WriteLine("İnsan Kaynaklarının Soyadı: " + Soyadı);
         Console.WriteLine("İnsan Kaynaklarının Departmanı: " + Departman);
     }
 
@@ -35,7 +35,7 @@ public class Mudur : Calısan
     public override void BilgileriGoster()
     {
         Console.WriteLine("Müdürün adı: " + Ad);
-        Console.WriteLine("Müdürün Soyadı: " + Surname);
+        Console.WriteLine("Müdürün Soyadı: " + Soyadı);
         Console.WriteLine("Müdürün Departmanı: " + Departman);
     }
 }
@@ -47,7 +47,7 @@ public class Yazılımcı : Calısan
     public override void BilgileriGoster()
     {
         Console.WriteLine("Yazılımcının adı: " + Ad);
-        Console.WriteLine("Yazılımcının Soyadı: " + Surname);
+        Console.WriteLine("Yazılımcının Soyadı: " + Soyadı);
         Console.WriteLine("Yazılımcının Departmanı: " + Departman);
     }
     public class Hizmetçi : Calısan
@@ -58,7 +58,7 @@ public class Yazılımcı : Calısan
         public override void BilgileriGoster()
         {
             Console.WriteLine("Hizmetçinin adı: " + Ad);
-            Console.WriteLine("Hizmetçinin Soyadı: " + Surname);
+            Console.WriteLine("Hizmetçinin Soyadı: " + Soyadı);
             Console.WriteLine("Hizmetçinin Departmanı: " + Departman);
         }
     }
