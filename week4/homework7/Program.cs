@@ -6,10 +6,10 @@ public abstract class Calısan // calısan adında nesne üretilemez cünkü abs
     public string Soyadı { get; set; }
     public string Departman { get; set; }
 
-    public Calısan(string ad, string Soyadı, string departman)
+    public Calısan(string ad, string soyadı, string departman)
     {
         Ad = ad;
-        Soyadı = Soyadı;
+        Soyadı = soyadı;
         Departman = departman;
     }
     public abstract void BilgileriGoster();
