@@ -6,17 +6,17 @@ public abstract class Calısan // calısan adında nesne üretilemez cünkü abs
     public string Soyadı { get; set; }
     public string Departman { get; set; }
 
-    public Calısan(string ad, string surname, string departman)
+    public Calısan(string ad, string Soyadı, string departman)
     {
         Ad = ad;
-        Soyadı = surname;
+        Soyadı = Soyadı;
         Departman = departman;
     }
     public abstract void BilgileriGoster();
 }
 public class İnsanKaynakları : Calısan
 {
-    public İnsanKaynakları(string ad, string surname) : base(ad, surname, "İnsan Kaynakları") //base: üst sınıfın constructor'ını çalıştırır
+    public İnsanKaynakları(string ad, string soyadı) : base(ad, soyadı, "İnsan Kaynakları") //base: üst sınıfın constructor'ını çalıştırır
     {
     }
     public override void BilgileriGoster() //override: üsttekini geçersiz kılıp altta kendine özgü bir şey yapmak
@@ -29,7 +29,7 @@ public class İnsanKaynakları : Calısan
 }
 public class Mudur : Calısan
 {
-    public Mudur(string ad, string surname) : base(ad, surname, "Müdür")
+    public Mudur(string ad, string soyadı) : base(ad, soyadı, "Müdür")
     {
     }
     public override void BilgileriGoster()
@@ -41,7 +41,7 @@ public class Mudur : Calısan
 }
 public class Yazılımcı : Calısan
 {
-    public Yazılımcı(string ad, string surname) : base(ad, surname, "Yazılımcı")
+    public Yazılımcı(string ad, string soyadı) : base(ad, soyadı, "Yazılımcı")
     {
     }
     public override void BilgileriGoster()
@@ -52,7 +52,7 @@ public class Yazılımcı : Calısan
     }
     public class Hizmetçi : Calısan
     {
-        public Hizmetçi(string ad, string surname) : base(ad, surname, "Hizmetçi")
+        public Hizmetçi(string ad, string soyadı) : base(ad, soyadı, "Hizmetçi")
         {
         }
         public override void BilgileriGoster()
