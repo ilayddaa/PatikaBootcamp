@@ -8,5 +8,5 @@ WHERE first_name IN ('Penelope', 'Nick', 'Ed'); --- actor tablosunda bulunan fir
 
 --3)
 SELECT * FROM film
-WHERE rental_rate IN (-0.99, 2.99, 4,99) AND replacement_cost IN (12.99, 15.99, 28.99); -- film tablosunda bulunan rental_rate 'i 0.99 ya da 2.99 ya da 4.99 olan filmleri sıralayınız.
+WHERE rental_rate IN (0.99, 2.99, 4,99) AND replacement_cost IN (12.99, 15.99, 28.99); -- film tablosunda bulunan rental_rate 'i 0.99 ya da 2.99 ya da 4.99 olan filmleri sıralayınız.
 
