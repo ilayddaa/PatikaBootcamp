@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Example3", "Example3\Exampl
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lınq-Homework2", "Lınq-Homework2\Lınq-Homework2.csproj", "{831B8792-9B0B-4C6F-8FEB-BAF44E1D23CD}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lınq-Homework3", "Lınq-Homework3\Lınq-Homework3.csproj", "{40D8EC3D-E07E-47C9-9E38-E1F3BE2DB4D1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -42,5 +44,9 @@ Global
 		{831B8792-9B0B-4C6F-8FEB-BAF44E1D23CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{831B8792-9B0B-4C6F-8FEB-BAF44E1D23CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{831B8792-9B0B-4C6F-8FEB-BAF44E1D23CD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{40D8EC3D-E07E-47C9-9E38-E1F3BE2DB4D1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{40D8EC3D-E07E-47C9-9E38-E1F3BE2DB4D1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{40D8EC3D-E07E-47C9-9E38-E1F3BE2DB4D1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{40D8EC3D-E07E-47C9-9E38-E1F3BE2DB4D1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
