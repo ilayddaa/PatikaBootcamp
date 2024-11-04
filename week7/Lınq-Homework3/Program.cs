@@ -13,30 +13,12 @@ new Series("Aşk-ı Memnu", 2008, "Dram,Romantik", 2008, "Hilal Saral", "Kanal D
 new Series("Muhteşem Yüzyıl", 2011, "Tarih,Dram", 2011, "Mercan Çilingiroğlu", "Star TV"),
 new Series("Yaprak Dökümü", 2006, "Dram", 2006, "Serdar Akar", "Kanal D"),
 };
-
+Console.WriteLine("Patikaflix'e Hoş Geldiniz!");
 while (true)
 {
-    Console.WriteLine("Dizinin ismini giriniz: ");
-    string seriesName = Console.ReadLine();
-    Console.WriteLine("---------------------------------");
-    Console.WriteLine("Yapım yılını giriniz: ");
-    int releaseYear = Convert.ToInt32(Console.ReadLine());
-    Console.WriteLine("---------------------------------");
-    Console.WriteLine("Türünü giriniz: ");
-    string type = Console.ReadLine();
-    Console.WriteLine("---------------------------------");
-    Console.WriteLine("Dizinin yayınlanma yılını giriniz: ");
-    int startYear = Convert.ToInt32(Console.ReadLine());
-    Console.WriteLine("---------------------------------");
-    Console.WriteLine("Yönetmenini giriniz: ");
-    string director = Console.ReadLine();
-    Console.WriteLine("---------------------------------");
-    Console.WriteLine("Platformunu giriniz: ");
-    string platform = Console.ReadLine();
-    Console.WriteLine("---------------------------------");
-    Console.WriteLine("Dizi eklendi.");
-    Console.WriteLine("Başka bir dizi eklemek ister misiniz? (E/H)");
-    answer:
+    Console.Write("Dizi eklemek istiyor musunuz? (E/H): ");
+    
+answer:
     string answer = Console.ReadLine();
 
     if (answer == "H" || answer == "h")
@@ -45,14 +27,35 @@ while (true)
     }
     else if (answer == "E" || answer == "e")
     {
-        continue;
+        Console.Write("Lütfen eklemek istediğiniz dizinin ismini giriniz: ");
+        string seriesName = Console.ReadLine();
+
+        Console.Write("Yapım yılını giriniz: ");
+        int releaseYear = Convert.ToInt32(Console.ReadLine());
+
+        Console.Write("Türünü giriniz: ");
+        string type = Console.ReadLine();
+
+        Console.Write("Dizinin yayınlanma yılını giriniz: ");
+        int startYear = Convert.ToInt32(Console.ReadLine());
+
+        Console.Write("Yönetmenini giriniz: ");
+        string director = Console.ReadLine();
+
+        Console.Write("Platformunu giriniz: ");
+        string platform = Console.ReadLine();
+        Console.Clear();
+
+        Console.WriteLine("Dizi eklendi.");
+
     }
     else
     {
         Console.WriteLine("Hatalı giriş yaptınız.");
         goto answer;
     }
-    Console.Clear();
+    
+
 }
 
 Console.WriteLine("Komedi türündeki diziler:");
