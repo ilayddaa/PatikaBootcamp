@@ -15,6 +15,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lınq-Homework2", "Lınq-Ho
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lınq-Homework3", "Lınq-Homework3\Lınq-Homework3.csproj", "{40D8EC3D-E07E-47C9-9E38-E1F3BE2DB4D1}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Example4", "Example4\Example4.csproj", "{8CCE77F4-E000-42A0-B655-5E9F48E8DD8D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lınq-Homework4", "Lınq-Homework4\Lınq-Homework4.csproj", "{017B25EC-0B87-4AD3-B49D-9A2483982944}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -48,5 +52,13 @@ Global
 		{40D8EC3D-E07E-47C9-9E38-E1F3BE2DB4D1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{40D8EC3D-E07E-47C9-9E38-E1F3BE2DB4D1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{40D8EC3D-E07E-47C9-9E38-E1F3BE2DB4D1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8CCE77F4-E000-42A0-B655-5E9F48E8DD8D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8CCE77F4-E000-42A0-B655-5E9F48E8DD8D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8CCE77F4-E000-42A0-B655-5E9F48E8DD8D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8CCE77F4-E000-42A0-B655-5E9F48E8DD8D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{017B25EC-0B87-4AD3-B49D-9A2483982944}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{017B25EC-0B87-4AD3-B49D-9A2483982944}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{017B25EC-0B87-4AD3-B49D-9A2483982944}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{017B25EC-0B87-4AD3-B49D-9A2483982944}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
