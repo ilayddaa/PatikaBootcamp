@@ -1,0 +1,46 @@
+﻿@model Homework2_MVCprojesi.Models.CustomerOrderViewModel
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WelcomeMyPage</title>
+    <style>
+        body {
+            background-color: pink;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>@Model.WelcomeMessage</h1>
+    <h2>ღ Customer Orders ღ</h2>
+    <hr />
+    <p><strong>➳ Id:</strong>@Model.Customer.Id</p>
+    <p><strong>➳ FirstName:</strong>@Model.Customer.FirstName</p>
+    <p>◕‿◕ your name is nice ◕‿◕</p>
+    <p><strong>➳ LastName:</strong>@Model.Customer.LastName</p>
+    <p><strong>➳ Email:</strong>@Model.Customer.Email</p>
+    <hr />
+    <h2>ღ Orders ღ</h2>
+    <ul>
+        @foreach (var order in Model.Orders)
+        {
+            <li>
+                <p>
+                    <strong>➳ Order Id:</strong>@order.Id
+                    <strong>➳ Product Name:</strong>@order.ProductName
+                    <strong>➳ Price:</strong>@order.Price
+                    <strong>➳ Quantity:</strong>@order.Quantity
+                </p>
+            </li>
+        }
+    </ul>
+
+    <hr />
+    <h1>@Model.GoodbyeMessage</h1>
+</body>
+
+</html>
