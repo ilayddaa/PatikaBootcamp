@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodeFirstBasic", "CodeFirst
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodeFirstRelation", "CodeFirstRelation\CodeFirstRelation.csproj", "{12E50787-72A7-42FC-9FFA-8F65A01778D7}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Survivor", "Survivor\Survivor.csproj", "{8943C30B-75BB-400F-ABD1-4A5495A28A62}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -24,5 +26,9 @@ Global
 		{12E50787-72A7-42FC-9FFA-8F65A01778D7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{12E50787-72A7-42FC-9FFA-8F65A01778D7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{12E50787-72A7-42FC-9FFA-8F65A01778D7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8943C30B-75BB-400F-ABD1-4A5495A28A62}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8943C30B-75BB-400F-ABD1-4A5495A28A62}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8943C30B-75BB-400F-ABD1-4A5495A28A62}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8943C30B-75BB-400F-ABD1-4A5495A28A62}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
